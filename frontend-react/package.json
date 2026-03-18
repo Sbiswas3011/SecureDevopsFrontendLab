@@ -1,6 +1,6 @@
 {
-  "name": "lms-frontend-react",
-  "version": "2.0.0",
+  "name": "vulnerable-lms",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template-typescript": "1.2.0",
@@ -33,6 +33,9 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "autoprefixer": "^10.4.20",
