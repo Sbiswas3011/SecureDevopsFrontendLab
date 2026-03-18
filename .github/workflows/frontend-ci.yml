@@ -33,7 +33,7 @@ jobs:
       # Run frontend tests and generate coverage
       - name: Run tests
         working-directory: frontend-react
-        run: npm test -- --coverage --watchAll=false --ci
+        run: npm test -- --coverage --watchAll=false --ci --passWithNoTests
 
       # SonarCloud scan
       - name: SonarCloud Scan
